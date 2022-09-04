@@ -18,7 +18,7 @@ export default function AllProjects () {
           <h3>Lemon Tune</h3>
           <p>Javascript | React | CSS</p>
           <div className='proj-links'>
-            <a href=''><AiFillPlaySquare /></a>
+            <a href='https://jagrunewald.github.io/lemon-tune/#/'><AiFillPlaySquare /></a>
             <a href='https://github.com/jagrunewald/lemon-tune' target='_blank'><DiGithubBadge /></a>
           </div>
         </div>
