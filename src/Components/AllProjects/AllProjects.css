@@ -83,7 +83,7 @@
   }
   .proj-options {
     width: 200px;
-    height: 250px;
+    height: 260px;
     margin-bottom: 20px;
   }
   .proj-options img {
@@ -92,6 +92,6 @@
   }
   .proj-links {
     font-size: 20px;
-    height: 35px;
+    height: 25px;
   }
 }
