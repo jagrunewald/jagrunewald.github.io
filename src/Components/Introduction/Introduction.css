@@ -1,0 +1,43 @@
+.intro {
+  display: flex;
+  background-color: black;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.intro-name {
+  margin: auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.firstname {
+  color: hotpink;
+  font-size: 150px;
+  margin: 0;
+}
+
+.lastname {
+  background-color: hotpink;
+  color: black;
+  font-size: 90px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: -25px;
+  padding: 0px 20px 0px 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .intro {
+    height: 105vh;
+  }
+  .firstname {
+    font-size: 50px;
+  }
+  .lastname {
+    font-size: 25px;
+    margin-top: -5px;
+    padding: 0px 15px 0px 15px;
+  }
+}
