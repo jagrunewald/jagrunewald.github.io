@@ -25,7 +25,7 @@ export default function AllProjects () {
         <div className='proj-options'>
           <img src={img2} alt=''></img>
           <h3>Plan Finance</h3>
-          <p>Em construção</p>
+          <p>Under construction</p>
           <div className='proj-links'>
             <a href=''><AiFillPlaySquare /></a>
             <a href='' target='_blank'><DiGithubBadge /></a>
@@ -34,7 +34,7 @@ export default function AllProjects () {
         <div className='proj-options'>
           <img src={img3} alt=''></img>
           <h3>To do list</h3>
-          <p>Em construção</p>
+          <p>Under construction</p>
           <div className='proj-links'>
             <a href=''><AiFillPlaySquare /></a>
             <a href='' target='_blank'><DiGithubBadge /></a>
