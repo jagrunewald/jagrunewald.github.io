@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import icon from '../../img/devblue.png';
-import cv from '../../files/cv.pdf';
+import cv from '../../files/JessicaCV.pdf';
 
 export default function About () {
   return (
@@ -12,8 +12,12 @@ export default function About () {
       <div className='about-info'>
         <h2>WHO I AM</h2>
         <div className='about-text'>
-          <p>I am a professional in career transition. I've been studying software programming for a year and I'm also very interested in data analysis.</p>
-          <p>I'm Brazilian, but I currently live in Ireland to study English.</p>
+          <p>I am a professional in career transition. I've been studying software programming for a year. I'm Brazilian and I currently live in Waterford, Ireland.</p>
+        </div>
+        <h2>SKILLS</h2>
+        <div className='about-text'>
+          <p>HTML | CSS | JavaScript | React</p>
+          <p>Node JS | Typescript | SQL </p>
         </div>
         <button className='about-button-cv'>
           <a href={cv} download>Download CV</a>
