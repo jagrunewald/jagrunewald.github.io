@@ -24,11 +24,11 @@ export default function AllProjects () {
         </div>
         <div className='proj-options'>
           <img src={img2} alt=''></img>
-          <h3>Plan Finance</h3>
+          <h3>Pokédex</h3>
           <p>Under construction</p>
           <div className='proj-links'>
             <a href=''><AiFillPlaySquare /></a>
-            <a href='' target='_blank'><DiGithubBadge /></a>
+            <a href='https://github.com/jagrunewald/pokedex' target='_blank'><DiGithubBadge /></a>
           </div>
         </div>
         <div className='proj-options'>
