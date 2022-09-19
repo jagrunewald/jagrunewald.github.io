@@ -25,9 +25,9 @@ export default function AllProjects () {
         <div className='proj-options'>
           <img src={img2} alt=''></img>
           <h3>Pokédex</h3>
-          <p>Under construction</p>
+          <p>Javascript | React | CSS</p>
           <div className='proj-links'>
-            <a href=''><AiFillPlaySquare /></a>
+            <a href='https://jagrunewald.github.io/pokedex/'><AiFillPlaySquare /></a>
             <a href='https://github.com/jagrunewald/pokedex' target='_blank'><DiGithubBadge /></a>
           </div>
         </div>
