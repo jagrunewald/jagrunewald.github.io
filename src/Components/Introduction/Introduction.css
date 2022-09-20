@@ -5,19 +5,19 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.intro-name {
+.intro .intro-name {
   margin: auto;
   flex-wrap: wrap;
   text-align: center;
 }
 
-.firstname {
+.intro .intro-name .firstname {
   color: hotpink;
   font-size: 150px;
   margin: 0;
 }
 
-.lastname {
+.intro .intro-name .lastname {
   background-color: hotpink;
   color: black;
   font-size: 90px;
@@ -27,17 +27,19 @@
   padding: 0px 20px 0px 20px;
 }
 
-
 @media screen and (max-width: 600px) {
   .intro {
     height: 105vh;
   }
-  .firstname {
+  
+  .intro .intro-name .firstname {
     font-size: 50px;
   }
-  .lastname {
+
+  .intro .intro-name .lastname {
     font-size: 25px;
     margin-top: -5px;
     padding: 0px 15px 0px 15px;
   }
+
 }

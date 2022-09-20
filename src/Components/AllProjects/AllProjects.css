@@ -8,33 +8,36 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.projects-title {
+.projects .projects-title {
   display: flex;
   color:white;
   height: 20%;
   align-items:flex-end;
   justify-content: center;
 }
-.projects-title h2 {
+
+.projects .projects-title h2 {
   font-size: 40px;
   color: hotpink;
 }
 
-.projects-options {
+.projects .projects-options {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 80%;
 }
-.proj-options {
+
+.projects .projects-options .proj-options {
   background-color: white;
   border-radius: 1%;
   width: 300px;
   height: 400px;
   text-align: center;
 }
-.proj-options img {
+
+.projects .projects-options .proj-options img {
   width: 90%;
   height: 200px;
   margin-top: 10px;
@@ -42,11 +45,13 @@
   border: solid 2px;
   filter: grayscale(100%);
 }
-.proj-options img:hover {
+
+.projects .projects-options .proj-options img:hover {
   filter: grayscale(1%);
   border: solid 2px hotpink;
 }
-.proj-links {
+
+.projects .projects-options .proj-options .proj-links {
   display: flex;
   align-items: center;
   justify-content:center;
@@ -54,44 +59,51 @@
   font-size: 40px;
   height: 70px;
 }
-.proj-links svg {
+
+.projects .projects-options .proj-options .proj-links svg {
   margin-top: 15px;
   margin-right: 10px;
 }
-.proj-links a {
+
+.projects .projects-options .proj-options .proj-links a {
   text-align: center;
   color: hotpink;
   font-size: 40px;
   height: 70px;
 }
 
-
 @media screen and (max-width: 600px) {
   .projects {
     height: 100%;
   }
-  .projects-title {
+  
+  .projects .projects-title {
     height: 20%;
   }
-  .projects-title h2 {
+  
+  .projects .projects-title h2 {
     font-size: 30px;
     margin-top: 40px;
   }
 
-  .projects-options {
+  .projects .projects-options {
     flex-wrap: wrap;
   }
-  .proj-options {
+
+  .projects .projects-options .proj-options {
     width: 200px;
     height: 260px;
     margin-bottom: 20px;
   }
-  .proj-options img {
+  
+  .projects .projects-options .proj-options img {
     width: 90%;
     height: 100px;
   }
-  .proj-links {
+
+  .projects .projects-options .proj-options .proj-links {
     font-size: 20px;
     height: 25px;
   }
+  
 }

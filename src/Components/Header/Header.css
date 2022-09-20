@@ -19,13 +19,13 @@
   color: hotpink;
 }
 
-.header-home {
+.header .header-home {
   margin-left: 30px;
   width: 80%;
   font-size: 25px;
 }
 
-.header-nav {
+.header .header-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -33,17 +33,19 @@
   font-size: 15px;
 }
 
-
 @media screen and (max-width: 600px) {
     .header {
       flex-wrap: wrap;
       justify-content: center;
     }
-    .header-home {
+    
+    .header .header-home {
       margin-left: 0;
       text-align: center;
     }
-    .header-nav a {
+
+    .header .header-nav a {
       margin-left: 25px;
     }
+
 }
