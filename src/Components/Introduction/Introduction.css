@@ -19,6 +19,8 @@
 
 .intro .intro-name .lastname {
   background-color: hotpink;
+  /* background: rgb(88,228,242);
+  background: linear-gradient(90deg, rgba(88,228,242,1) 0%, rgba(198,249,249,1) 24%, rgba(229,203,242,1) 50%, rgba(238,70,167,1) 83%, rgba(242,27,129,1) 100%); */
   color: black;
   font-size: 90px;
   font-weight: bold;

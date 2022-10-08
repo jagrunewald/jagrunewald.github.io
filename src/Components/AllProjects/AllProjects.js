@@ -1,7 +1,7 @@
 import React from 'react';
 import './AllProjects.css';
-import img1 from '../../img/img-project-1.jpg'
-import img2 from '../../img/img-project-2.jpg';
+import img1 from '../../img/img-1.png'
+import img2 from '../../img/img-2.png';
 import img3 from '../../img/img-project-3.jpeg';
 import { AiFillPlaySquare } from "react-icons/ai";
 import { DiGithubBadge } from "react-icons/di";
