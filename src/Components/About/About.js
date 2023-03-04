@@ -8,8 +8,8 @@ export default function About () {
   return (
     <div className='about' id='about'>
       <div className='about-gallery'>
-        <div className='about-gallery-image'>
-          <img src={img} alt='profile' className='gallery-image' />
+        <div className='about-gallery-image' id='gallery'>
+          <img src={img} alt='profile' className='gallery-image'/>
         </div>
         <div className='contact-icons'>
           <a href='https://www.linkedin.com/in/jessicagrunewald/' target='_blank' className='icon'><AiFillLinkedin /></a>

@@ -36,13 +36,20 @@
 
 @media screen and (max-width: 600px) {
     .header {
-      flex-wrap: wrap;
+      flex-wrap: flex;
       justify-content: center;
     }
     
     .header .header-home {
-      margin-left: 0;
-      text-align: center;
+      margin-left: 0px;
+      padding-left: 10px;
+      text-align: left;
+      width: 50%;
+    }
+
+    .header .header-nav {
+      width: 50%;
+      padding-right: 10px;
     }
 
     .header .header-nav a {
