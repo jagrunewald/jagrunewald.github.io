@@ -7,9 +7,8 @@ export default function Header () {
     <div className='header'>
       <a href='#intro' rel='home' className='header-home'><ImHome /></a>
       <nav className='header-nav'>
-        <a href='#about'>ABOUT</a>
-        <a href='#projects'>PROJECTS</a>
-        <a href='#contact'>CONTACT</a>
+        <h2><a href='#about'>About</a></h2>
+        <h2><a href='#projects'>Projects</a></h2>
       </nav>
     </div>
   )
