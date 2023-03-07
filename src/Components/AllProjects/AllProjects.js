@@ -9,9 +9,6 @@ import { DiGithubBadge } from "react-icons/di";
 export default function AllProjects () {
   return (
     <div className='projects' id='projects'>
-      {/* <div className='projects-title'>
-        <h2>PROJECTS</h2>
-      </div> */}
       <div className='projects-options'>
         <div className='proj-options'>
           <img src={img1} alt='Imagem' />
