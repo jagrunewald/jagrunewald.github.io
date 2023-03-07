@@ -8,8 +8,8 @@ function App() {
     <div>
       <Header />
       <Introduction />
-      <About />
       <AllProjects />
+      <About />
     </div>
   );
 }

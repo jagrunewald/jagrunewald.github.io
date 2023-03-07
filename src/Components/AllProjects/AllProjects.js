@@ -2,16 +2,16 @@ import React from 'react';
 import './AllProjects.css';
 import img1 from '../../img/img-1.png'
 import img2 from '../../img/img-2.png';
-import img3 from '../../img/img-project-3.jpeg';
+import img3 from '../../img/gf.png';
 import { AiFillPlaySquare } from "react-icons/ai";
 import { DiGithubBadge } from "react-icons/di";
 
 export default function AllProjects () {
   return (
     <div className='projects' id='projects'>
-      <div className='projects-title'>
+      {/* <div className='projects-title'>
         <h2>PROJECTS</h2>
-      </div>
+      </div> */}
       <div className='projects-options'>
         <div className='proj-options'>
           <img src={img1} alt='Imagem' />
@@ -33,7 +33,7 @@ export default function AllProjects () {
         </div>
         <div className='proj-options'>
           <img src={img3} alt=''></img>
-          <h3>To do list</h3>
+          <h3>Analytics</h3>
           <p>Under construction</p>
           <div className='proj-links'>
             <a href=''><AiFillPlaySquare /></a>
